@@ -19,7 +19,7 @@
   </ul>
   
   <h2>Demo</h2>
-  <p><a href="#" target="_blank">View Demo</a></p>
+  <p><a href="https://tic-tac-toe-eight-wheat.vercel.app/" target="_blank">Tic-Tac-Toe Game</a></p>
   <!-- Replace "#" with the actual demo link once available -->
   
   <h2>Getting Started</h2>
