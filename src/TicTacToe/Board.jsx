@@ -25,14 +25,14 @@ const Board = () => {
       }
     }
 
-    return null; // Return null if no winner is found after the loop
+    return null;
   };
 
   const isWinner = checkWinner();
 
   const handleClick = (index) => {
     if (isWinner || state[index] !== null) {
-      return; // If there's a winner or the square is already filled, do nothing
+      return;
     }
 
     const copyState = [...state];
