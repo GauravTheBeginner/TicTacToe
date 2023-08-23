@@ -1,0 +1,74 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+}
+
+.board-container {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.winner-message {
+  margin-bottom: 10px;
+  font-size: 24px;
+  color: #28a745;
+}
+
+.draw-message {
+  margin: 10px 0;
+  font-size: 24px;
+  color: #dc3545;
+}
+
+.board {
+  
+  display: flex;
+  flex-direction: column;
+  background-color: #333;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.board-row {
+  display: flex;
+  justify-content: center;
+}
+
+.square {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 150px;
+  background-color: #eee;
+  border: 2px solid #ddd;
+  font-size: 36px;
+  color: #333;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.square:hover {
+  background-color: #ddd;
+  transform: scale(1.02);
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
